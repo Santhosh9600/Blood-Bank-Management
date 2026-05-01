@@ -90,7 +90,6 @@ body
   text-decoration: underline;
 }
 
-
 /* Register  */
 
 .login-container1 {
@@ -110,7 +109,6 @@ body
   margin-bottom: 25px;
   color: #333;
 }
-
 
 .input-group1 {
   margin-bottom: 20px;
@@ -180,7 +178,7 @@ body
 
 
 .footer-login{
-   background:#5bbf9a; 
+  background:#5bbf9a; 
   color:white;
   text-align:center;
   padding:10px;
