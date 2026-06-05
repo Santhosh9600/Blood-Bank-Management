@@ -62,7 +62,7 @@ return (
 </div>
 
 <div className="footer-login">
-  Blood Sharing Portal All Rights Reserved
+  Blood Sharing Portal
 </div>
 
 </>
