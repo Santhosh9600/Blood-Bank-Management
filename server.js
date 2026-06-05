@@ -26,7 +26,7 @@ db.connect((err) => {
     }
 })
 
-// Create Table Route
+// Create Table 
 app.get("/createtable", (req, res) => {
 
     let sql = `CREATE TABLE client(Id INT AUTO_INCREMENT,Username VARCHAR(100),Email VARCHAR(100),Password VARCHAR(100),Phone_number VARCHAR(15),PRIMARY KEY(id))`;
@@ -40,7 +40,7 @@ app.get("/createtable", (req, res) => {
     })
 })
 
-//Insert Post
+//Insert 
 
 app.post("/register", (req, res) => {
 
@@ -72,7 +72,7 @@ app.get("/users", (req, res) => {
     });
 });
 
-// Update user
+// Update 
 app.put('/users/:id', (req, res) => {
   const { id } = req.params;
   const { username, email, password, phone_number } = req.body;
@@ -89,7 +89,7 @@ app.put('/users/:id', (req, res) => {
   });
 });
 
-// Delete user
+// Delete 
 app.delete('/users/:id', (req, res) => {
   const { id } = req.params;
 
