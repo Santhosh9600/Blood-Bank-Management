@@ -11,7 +11,7 @@ const Contact=()=>{
     </div>
 
       <div className="footer-contact">
-        Blood Sharing Portal All Rights Reserved
+        Blood Sharing Portal
       </div>
       </>
   );
