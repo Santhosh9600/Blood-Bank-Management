@@ -63,7 +63,7 @@ return(
 
 </div>
 
-<div className="footer-register">Blood Sharing Portal All Rights Reserved</div>
+<div className="footer-register">Blood Sharing Portal</div>
 </>
 )
 }
